@@ -5,16 +5,11 @@ import MySQLdb
 class Mysql():
     def __init__(self):
 
-        self.conn = MySQLdb.connect(
-            # host='45.32.89.110',
-            # port=11330,
-            # user='root',
-            # passwd='Root123465*',
-            # db='ICD11',
+        self.conn = MySQLdb.connect(          
             host='127.0.0.1',
             port=3306,
             user='root',
-            passwd='abc161718lly',
+            passwd='xxxxx',
             db='icd',
             charset='utf8'
         )
